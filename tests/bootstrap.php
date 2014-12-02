@@ -61,6 +61,79 @@
     public function getMaxWeight() {
       return $this->maxWeight;
     }
+
+    /**
+     * @param mixed $emptyWeight
+     */
+    public function setEmptyWeight($emptyWeight) {
+      $this->emptyWeight = $emptyWeight;
+    }
+
+    /**
+     * @param mixed $innerDepth
+     */
+    public function setInnerDepth($innerDepth) {
+      $this->innerDepth = $innerDepth;
+    }
+
+    /**
+     * @param mixed $innerLength
+     */
+    public function setInnerLength($innerLength) {
+      $this->innerLength = $innerLength;
+    }
+
+    /**
+     * @param mixed $innerVolume
+     */
+    public function setInnerVolume($innerVolume) {
+      $this->innerVolume = $innerVolume;
+    }
+
+    /**
+     * @param mixed $innerWidth
+     */
+    public function setInnerWidth($innerWidth) {
+      $this->innerWidth = $innerWidth;
+    }
+
+    /**
+     * @param mixed $maxWeight
+     */
+    public function setMaxWeight($maxWeight) {
+      $this->maxWeight = $maxWeight;
+    }
+
+    /**
+     * @param mixed $outerDepth
+     */
+    public function setOuterDepth($outerDepth) {
+      $this->outerDepth = $outerDepth;
+    }
+
+    /**
+     * @param mixed $outerLength
+     */
+    public function setOuterLength($outerLength) {
+      $this->outerLength = $outerLength;
+    }
+
+    /**
+     * @param mixed $outerWidth
+     */
+    public function setOuterWidth($outerWidth) {
+      $this->outerWidth = $outerWidth;
+    }
+
+    /**
+     * @param mixed $reference
+     */
+    public function setReference($reference) {
+      $this->reference = $reference;
+    }
+
+
+
   }
 
   class TestItem implements Item {
@@ -97,5 +170,49 @@
     public function getVolume() {
       return $this->volume;
     }
+
+    /**
+     * @param mixed $depth
+     */
+    public function setDepth($depth) {
+      $this->depth = $depth;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description) {
+      $this->description = $description;
+    }
+
+    /**
+     * @param mixed $length
+     */
+    public function setLength($length) {
+      $this->length = $length;
+    }
+
+    /**
+     * @param mixed $volume
+     */
+    public function setVolume($volume) {
+      $this->volume = $volume;
+    }
+
+    /**
+     * @param mixed $weight
+     */
+    public function setWeight($weight) {
+      $this->weight = $weight;
+    }
+
+    /**
+     * @param mixed $width
+     */
+    public function setWidth($width) {
+      $this->width = $width;
+    }
+
+
  }
 
